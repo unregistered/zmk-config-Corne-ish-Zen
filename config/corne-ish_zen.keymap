@@ -31,8 +31,8 @@
                 default_layer {
                         label = "MAIN";
                         bindings = <
-   &kp ESC          &kp Q &kp H   &kp O     &kp U &kp X         &kp G   &kp C  &kp M  &kp R   &kp V    &kp BSPC
-   &mt LCTRL TAB    &kp Y &kp I   &kp E     &kp A &kp DOT       &kp D   &kp S  &kp T  &kp N   &kp B    &kp SQT
+   &kp LCTRL TAB    &kp Q &kp H   &kp O     &kp U &kp X         &kp G   &kp C  &kp M  &kp R   &kp V    &kp BSPC
+   &mt ESC          &kp Y &kp I   &kp E     &kp A &kp DOT       &kp D   &kp S  &kp T  &kp N   &kp B    &kp SQT
    &kp LSHIFT       &kp J &kp DQT &kp COMMA &kp K &kp SQT       &kp W   &kp F  &kp L  &kp P   &kp Z    &kp LALT
 
                    &lt LEVNUM BSPC &mo LEVSHIFT &kp LCMD                     &kp RET &lt LEVSYM SPACE &mo LEVNUM
@@ -53,9 +53,9 @@
                 punct_layer {
                         label = "SYM";
                         bindings = <
-   &trans &none &kp LT &kp EQUAL &kp GT &none              &none &kp LBKT &kp UNDER &kp RBKT &none &trans
-   &trans &kp BSLH &kp LPAR &kp MINUS &kp RPAR &kp PLUS    &kp EXCL &kp LBRC &kp SEMI &kp RBRC &kp PERCENT &trans
-   &trans &none &kp STAR &kp COLON &kp SLASH &none         &none &kp PIPE &kp TILDE &kp AMPS &none &trans
+   &trans &none     &kp LT    &kp EQUAL &kp GT    &kp HASH      &kp PLUS  &kp LBKT &kp UNDER &kp RBKT &none       &trans
+   &trans &kp BSLH  &kp LPAR  &kp MINUS &kp RPAR  &kp DLLR      &kp EXCL  &kp LBRC &kp  SEMI &kp RBRC &kp PERCENT &trans
+   &trans &none     &kp STAR  &kp COLON &kp SLASH &kp AT        &kp CARET &kp PIPE &kp TILDE &kp AMPS &none       &trans
 
                    &trans &trans &trans                 &trans &trans &trans
                         >;
@@ -64,9 +64,9 @@
                 num_layer {
                         label = "NUM";
                         bindings = <
-   &trans &none &none &kp UP &kp N3 &none           &reset &kp N7 &kp N8 &kp N9 &kp N0 &trans
-   &trans &none &kp LEFT &kp DOWN &kp RIGHT &none          &none &kp N4 &kp N5 &kp N6 &none &trans
-   &trans &none &none &none &none &none           &none &kp N1 &kp N2 &kp N3 &kp N0 &trans
+   &trans &none &none    &kp UP   &none     &none          &reset &kp N7 &kp N8 &kp N9 &kp N0 &trans
+   &trans &none &kp LEFT &kp DOWN &kp RIGHT &none          &none  &kp N4 &kp N5 &kp N6 &none  &trans
+   &trans &none &none    &none    &none     &none          &none  &kp N1 &kp N2 &kp N3 &kp N0 &trans
 
                    &trans &trans &trans                 &trans &trans &trans
                         >;
