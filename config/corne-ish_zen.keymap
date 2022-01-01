@@ -49,7 +49,7 @@
                    &trans &trans &trans                  &trans &trans &trans
                         >;
                 };
-/*
+
                 punct_layer {
                         label = "SYMBOL";
                         bindings = <
@@ -60,7 +60,7 @@
                    &trans &trans &trans                 &trans &trans &trans
                         >;
                 };
-
+/*
                 numpad_layer {
                         label = "NUMPAD";
                         bindings = <
