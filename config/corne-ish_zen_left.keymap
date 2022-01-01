@@ -1,59 +1,8 @@
 /*
 *
-* Copyright (c) 2021 Darryl deHaan
+* Copyright (c) 2021 lowprokb.ca
 * SPDX-License-Identifier: MIT
 *
 */
 
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/bt.h>
-
-/
-{
-        /*combos {
-                compatible = "zmk,combos";
-                combo_symshift {
-                        timeout - ms = <50>;
-                        key - positions = <37 41>;
-                        bindings = <&mo 3>;
-                };
-        };*/
-
-        keymap {
-                compatible = "zmk,keymap";
-
-                default_layer {
-                        label = "BASE";
-                        bindings = <
-   &kp ESC         &kp Q &kp H   &kp O     &kp U &kp X         &kp G   &kp C  &kp M  &kp R   &kp V    &kp BSPC
-   &mt LCTRL TAB   &kp Y &kp I   &kp E     &kp A &kp DOT       &kp D   &kp S  &kp T  &kp N   &kp B    &kp SQT
-   &kp SHIFT       &kp J &kp DQT &kp COMMA &kp K &kp SQT       &kp W   &kp F  &kp L  &kp P   &kp Z    &kp ESC
-
-                   &kp BSPC &mo 1  &kp LCMD         &kp RET &kp SPACE &mo 2
-                        >;
-                };
-                
-                adjust_layer {
-                        label = "SHIFT";
-                        bindings = <
-   &trans &kp LS(Q) &kp LS(H)   &kp LS(O)     &kp LS(U) &kp LS(X)         &kp LS(G)   &kp LS(C)  &kp LS(M)  &kp LS(R)   &kp LS(V)    &trans
-   &trans &kp LS(Y) &kp LS(I)   &kp LS(E)     &kp LS(A) &kp GRAVE         &kp LS(D)   &kp LS(S)  &kp LS(T)  &kp LS(N)   &kp LS(B)    &trans
-   &trans &kp LS(J) &kp EXCL    &kp QMARK     &kp LS(K) &kp DQT           &kp LS(W)   &kp LS(F)  &kp LS(L)  &kp LS(P)   &kp LS(Z)    &trans
-
-                   &trans &trans &trans                  &trans &trans &trans
-                        >;
-                };
-                /*
-                symbol_layer {
-                        label = "SYMBOL";
-   &kp ESC   &kp Q &kp H   &kp UP     &kp U &kp X                  &kp G   &kp N7  &kp N8  &kp N9   &trans    &trans
-   &kp LCTRL &kp Y &kp LEFT  &kp DOWN     &kp RIGHT  &kp DOT       &kp D   &kp N4  &kp N5  &kp N6   &trans    &trans
-   &kp LSHFT &kp J &kp DQT &kp COMMA &kp K &kp SQT                 &kp W   &kp N1  &kp N2  &kp N3   &kp N0    &trans
-
-                   &trans &trans &trans                  &trans &trans &trans
-                        >;
-                };
-                */
-        };
-};
+#include "corne-ish_zen.keymap"
