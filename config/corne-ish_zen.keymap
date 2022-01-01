@@ -31,11 +31,11 @@
                 default_layer {
                         label = "MAIN";
                         bindings = <
-   &kp LCTRL TAB    &kp Q &kp H   &kp O     &kp U &kp X         &kp G   &kp C  &kp M  &kp R   &kp V    &kp BSPC
-   &mt ESC          &kp Y &kp I   &kp E     &kp A &kp DOT       &kp D   &kp S  &kp T  &kp N   &kp B    &kp SQT
+   &mt LCTRL TAB    &kp Q &kp H   &kp O     &kp U &kp X         &kp G   &kp C  &kp M  &kp R   &kp V    &kp BSPC
+   &kp ESC          &kp Y &kp I   &kp E     &kp A &kp DOT       &kp D   &kp S  &kp T  &kp N   &kp B    &kp SQT
    &kp LSHIFT       &kp J &kp DQT &kp COMMA &kp K &kp SQT       &kp W   &kp F  &kp L  &kp P   &kp Z    &kp LALT
 
-                   &lt LEVNUM BSPC &mo LEVSHIFT &kp LCMD                     &kp RET &lt LEVSYM SPACE &mo LEVNUM
+                   &lt LEVNUM BSPC &mo LEVSHIFT &mt LCMD TAB                &kp RET &lt LEVSYM SPACE &mo LEVNUM
                         >;
                 };
 
