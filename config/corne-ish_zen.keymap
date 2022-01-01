@@ -11,14 +11,14 @@
 
 /
 {
-        combos {
+        /*combos {
                 compatible = "zmk,combos";
                 combo_symshift {
                         timeout - ms = <50>;
                         key - positions = <37 41>;
                         bindings = <&mo 3>;
                 };
-        };
+        };*/
 
         keymap {
                 compatible = "zmk,keymap";
@@ -33,6 +33,7 @@
                    &kp BSPC &mo 1  &kp LCMD         &kp RET &kp SPACE &mo 2
                         >;
                 };
+                /*
                 shift_layer {
                         label = "SHIFT";
                         bindings = <
@@ -52,5 +53,6 @@
                    &trans &trans &trans                  &trans &trans &trans
                         >;
                 };
+                */
         };
 };
