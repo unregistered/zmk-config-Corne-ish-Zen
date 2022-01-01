@@ -33,7 +33,8 @@
                    &kp BSPC &mo 1  &kp LCMD         &kp RET &kp SPACE &mo 2
                         >;
                 };
-                shift_layer {
+                
+                adjust_layer {
                         label = "SHIFT";
                         bindings = <
    &trans &kp LS(Q) &kp LS(H)   &kp LS(O)     &kp LS(U) &kp LS(X)         &kp LS(G)   &kp LS(C)  &kp LS(M)  &kp LS(R)   &kp LS(V)    &trans
