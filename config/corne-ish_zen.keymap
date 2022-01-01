@@ -60,7 +60,7 @@
                    &trans &trans &trans                 &trans &trans &trans
                         >;
                 };
-/*
+
                 numpad_layer {
                         label = "NUMPAD";
                         bindings = <
@@ -71,6 +71,6 @@
                    &trans &trans &trans                 &trans &trans &trans
                         >;
                 };
-*/
+
         };
 };
