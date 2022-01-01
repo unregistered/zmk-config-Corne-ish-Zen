@@ -26,14 +26,13 @@
                 default_layer {
                         label = "BASE";
                         bindings = <
-   &kp ESC   &kp Q &kp H   &kp O     &kp U &kp X         &kp G   &kp C  &kp M  &kp R   &kp V    &kp BSPC
-   &kp LCTRL &kp Y &kp I   &kp E     &kp A &kp DOT       &kp D   &kp S  &kp T  &kp N   &kp B    &kp SQT
-   &kp LSHFT &kp J &kp DQT &kp COMMA &kp K &kp SQT       &kp W   &kp F  &kp L  &kp P   &kp Z    &kp ESC
+   &kp ESC         &kp Q &kp H   &kp O     &kp U &kp X         &kp G   &kp C  &kp M  &kp R   &kp V    &kp BSPC
+   &mt LCTRL TAB   &kp Y &kp I   &kp E     &kp A &kp DOT       &kp D   &kp S  &kp T  &kp N   &kp B    &kp SQT
+   &kp SHIFT       &kp J &kp DQT &kp COMMA &kp K &kp SQT       &kp W   &kp F  &kp L  &kp P   &kp Z    &kp ESC
 
                    &kp BSPC &mo 1  &kp LCMD         &kp RET &kp SPACE &mo 2
                         >;
                 };
-                /*
                 shift_layer {
                         label = "SHIFT";
                         bindings = <
@@ -44,6 +43,7 @@
                    &trans &trans &trans                  &trans &trans &trans
                         >;
                 };
+                /*
                 symbol_layer {
                         label = "SYMBOL";
    &kp ESC   &kp Q &kp H   &kp UP     &kp U &kp X                  &kp G   &kp N7  &kp N8  &kp N9   &trans    &trans
