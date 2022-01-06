@@ -28,6 +28,7 @@
             a_DQT: a_DQT {
                 compatible = "zmk,behavior-mod-morph";
                 label = "a_DQT";
+                #binding-cells = <0>;
                 bindings = <&kp DQT>, <&kp EXCL>;
                 mods = <(MOD_LSFT|MOD_RSFT)>;
             };
