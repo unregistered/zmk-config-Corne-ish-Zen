@@ -24,6 +24,15 @@
                         bindings = <&mo 3>;
                 };
         };*/
+        behaviors {
+            a_DQT: a_DQT {
+                compatible = "zmk,behavior-mod-morph";
+                label = "a_DQT";
+                bindings = <&kp DQT>, <&kp EXCL>;
+                mods = <(MOD_LSFT|MOD_RSFT)>;
+            };
+        };
+
 
         keymap {
                 compatible = "zmk,keymap";
@@ -33,7 +42,7 @@
                         bindings = <
    &mt LCTRL TAB    &kp Q &kp H   &kp O     &kp U &kp X         &kp G   &kp C  &kp M  &kp R   &kp V    &kp BSPC
    &kp ESC          &kp Y &kp I   &kp E     &kp A &kp DOT       &kp D   &kp S  &kp T  &kp N   &kp B    &kp SQT
-   &kp LSHIFT       &kp J &kp DQT &kp COMMA &kp K &kp SQT       &kp W   &kp F  &kp L  &kp P   &kp Z    &kp LALT
+   &kp LSHIFT       &kp J &kp a_DQT &kp COMMA &kp K &kp SQT       &kp W   &kp F  &kp L  &kp P   &kp Z    &kp LALT
 
                    &lt LEVNUM BSPC &mo LEVSHIFT &mt LCMD TAB                &kp RET &lt LEVSYM SPACE &mo LEVNUM
                         >;
