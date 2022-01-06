@@ -16,20 +16,26 @@
 
 /
 {
-        /*combos {
-                compatible = "zmk,combos";
-                combo_symshift {
-                        timeout - ms = <50>;
-                        key - positions = <37 41>;
-                        bindings = <&mo 3>;
-                };
-        };*/
         behaviors {
             a_DQT: a_DQT {
                 compatible = "zmk,behavior-mod-morph";
                 label = "a_DQT";
                 #binding-cells = <0>;
                 bindings = <&kp DQT>, <&kp EXCL>;
+                mods = <(MOD_LSFT|MOD_RSFT)>;
+            };
+            a_COMMA: a_COMMA {
+                compatible = "zmk,behavior-mod-morph";
+                label = "a_COMMA";
+                #binding-cells = <0>;
+                bindings = <&kp COMMA>, <&kp QMARK>;
+                mods = <(MOD_LSFT|MOD_RSFT)>;
+            };
+            a_DOT: a_DOT {
+                compatible = "zmk,behavior-mod-morph";
+                label = "a_DOT";
+                #binding-cells = <0>;
+                bindings = <&kp DOT>, <&kp GRAVE>;
                 mods = <(MOD_LSFT|MOD_RSFT)>;
             };
         };
@@ -42,10 +48,10 @@
                         label = "MAIN";
                         bindings = <
    &mt LCTRL TAB    &kp Q &kp H   &kp O     &kp U &kp X         &kp G   &kp C  &kp M  &kp R   &kp V    &kp BSPC
-   &kp ESC          &kp Y &kp I   &kp E     &kp A &kp DOT       &kp D   &kp S  &kp T  &kp N   &kp B    &kp SQT
-   &kp LSHIFT       &kp J &a_DQT &kp COMMA &kp K &kp SQT       &kp W   &kp F  &kp L  &kp P   &kp Z    &kp LALT
+   &mt LCTRL ESC    &kp Y &kp I   &kp E     &kp A &a_DOT       &kp D   &kp S  &kp T  &kp N   &kp B    &kp SQT
+   &kp LSHIFT       &kp J &a_DQT &a_COMMA &kp K &kp SQT       &kp W   &kp F  &kp L  &kp P   &kp Z    &kp LALT
 
-                   &lt LEVNUM BSPC &mo LEVSHIFT &mt LCMD TAB                &kp RET &lt LEVSYM SPACE &mo LEVNUM
+                   &lt LEVNUM BSPC &mt LSHIFT TAB &mt LCMD TAB                &kp RET &lt LEVSYM SPACE &mo LEVNUM
                         >;
                 };
 
