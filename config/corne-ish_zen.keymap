@@ -55,7 +55,7 @@
    &mt LCTRL ESC    &kp Y &kp I   &kp E     &kp A &a_DOT        &kp D   &kp S  &kp T  &kp N   &kp B    &kp K_COPY
    &mt LSHIFT TAB   &kp J &a_DQT &a_COMMA &kp K &kp SQT         &kp W   &kp F  &kp L  &kp P   &kp Z    &kp LALT
 
-                   &lt LEVNUM BSPC &mt LSHIFT TAB &mt LCMD TAB                &kp RET &lt LEVSYM SPACE &mo LEVNUM
+                   &lt LEVNUM BSPC &mt LSHIFT ESC &mt LCMD TAB                &kp RET &lt LEVSYM SPACE &mo LEVNUM
                         >;
                 };
 
