@@ -51,8 +51,8 @@
                 default_layer {
                         label = "MAIN";
                         bindings = <
-   &mt LALT GRAVE   &kp Q &kp H   &kp O     &kp U &kp X         &kp G   &kp C  &kp M  &kp R   &kp V    &kp K_PASTE
-   &mt LCTRL ESC    &kp Y &kp I   &kp E     &kp A &a_DOT        &kp D   &kp S  &kp T  &kp N   &kp B    &kp K_COPY
+   &mt LALT GRAVE   &kp Q &kp H   &kp O     &kp U &kp X         &kp G   &kp C  &kp M  &kp R   &kp V    &kp LG(V)
+   &mt LCTRL ESC    &kp Y &kp I   &kp E     &kp A &a_DOT        &kp D   &kp S  &kp T  &kp N   &kp B    &kp LG(C)
    &mt LSHIFT TAB   &kp J &a_DQT &a_COMMA &kp K &kp SQT         &kp W   &kp F  &kp L  &kp P   &kp Z    &kp LALT
 
                    &lt LEVNUM BSPC &mt LSHIFT ESC &mt LCMD TAB                &kp RET &lt LEVSYM SPACE &mo LEVNUM
@@ -84,7 +84,7 @@
                 num_layer {
                         label = "NUM";
                         bindings = <
-   &trans &none &none    &kp UP   &kp K_COPY &kp K_PASTE   &reset &kp N7 &kp N8 &kp N9 &kp N0 &trans
+   &trans &none &none    &kp UP   &kp LG(C) &kp LG(V)   &reset &kp N7 &kp N8 &kp N9 &kp N0 &trans
    &trans &none &kp LEFT &kp DOWN &kp RIGHT &a_DOT         &none  &kp N4 &kp N5 &kp N6 &none  &trans
    &trans &none &kp EQUAL &kp MINUS &kp SLASH  &kp PLUS    &none  &kp N1 &kp N2 &kp N3 &kp N0 &trans
 
