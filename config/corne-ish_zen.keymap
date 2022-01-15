@@ -51,9 +51,9 @@
                 default_layer {
                         label = "MAIN";
                         bindings = <
-   &mt LCTRL TAB    &kp Q &kp H   &kp O     &kp U &kp X         &kp G   &kp C  &kp M  &kp R   &kp V    &kp BSPC
-   &mt LCTRL ESC    &kp Y &kp I   &kp E     &kp A &a_DOT       &kp D   &kp S  &kp T  &kp N   &kp B    &kp SQT
-   &mt LSHIFT TAB   &kp J &a_DQT &a_COMMA &kp K &kp SQT       &kp W   &kp F  &kp L  &kp P   &kp Z    &kp LALT
+   &mt LALT GRAVE   &kp Q &kp H   &kp O     &kp U &kp X         &kp G   &kp C  &kp M  &kp R   &kp V    &kp K_PASTE
+   &mt LCTRL ESC    &kp Y &kp I   &kp E     &kp A &a_DOT        &kp D   &kp S  &kp T  &kp N   &kp B    &kp K_COPY
+   &mt LSHIFT TAB   &kp J &a_DQT &a_COMMA &kp K &kp SQT         &kp W   &kp F  &kp L  &kp P   &kp Z    &kp LALT
 
                    &lt LEVNUM BSPC &mt LSHIFT TAB &mt LCMD TAB                &kp RET &lt LEVSYM SPACE &mo LEVNUM
                         >;
@@ -85,8 +85,8 @@
                         label = "NUM";
                         bindings = <
    &trans &none &none    &kp UP   &none     &none          &reset &kp N7 &kp N8 &kp N9 &kp N0 &trans
-   &trans &none &kp LEFT &kp DOWN &kp RIGHT &none          &none  &kp N4 &kp N5 &kp N6 &none  &trans
-   &trans &none &none    &none    &none     &none          &none  &kp N1 &kp N2 &kp N3 &kp N0 &trans
+   &trans &none &kp LEFT &kp DOWN &kp RIGHT &a_DOT         &none  &kp N4 &kp N5 &kp N6 &none  &trans
+   &trans &none &EQUAL   &MINUS   &SLASH    &PLUS          &none  &kp N1 &kp N2 &kp N3 &kp N0 &trans
 
                    &trans &trans &trans                 &trans &trans &trans
                         >;
