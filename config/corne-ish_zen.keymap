@@ -96,9 +96,9 @@
                 shortcut_layer {
                         label = "CMD";
                         bindings = <
-   &trans &kp LC(Q) &kp LC(W) &kp LC(E) &kp LC(R) &kp LC(T)     &reset &kp N7 &kp N8 &kp N9 &kp N0 &trans
-   &trans &kp LC(A) &kp LC(S) &kp LC(D) &kp LC(F) &kp LC(G)     &none  &kp N4 &kp N5 &kp N6 &none  &trans
-   &trans &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V) &kp LC(B)     &none  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &kp N0 &trans
+   &trans &kp LG(Q) &kp LG(W) &kp LG(E) &kp LG(R) &kp LG(T)     &reset &kp N7 &kp N8 &kp N9 &kp N0 &trans
+   &trans &kp LG(A) &kp LG(S) &kp LG(D) &kp LG(F) &kp LG(G)     &none  &kp N4 &kp N5 &kp N6 &none  &trans
+   &trans &kp LG(Z) &kp LG(X) &kp LG(C) &kp LG(V) &kp LG(B)     &none  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &kp N0 &trans
 
                    &trans &trans &trans                 &trans &trans &trans
                         >;
